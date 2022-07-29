@@ -3,7 +3,7 @@ import React, {useEffect} from "react";
 import {initApp} from "./redux/app-reducer.js";
 import {compose} from "redux";
 import {connect, Provider} from "react-redux";
-import {BrowserRouter, NavLink, Route, Routes} from "react-router-dom";
+import {BrowserRouter, HashRouter, NavLink, Route, Routes} from "react-router-dom";
 import store from "./redux/redux-store.js";
 import ExtentionsContainer from "./components/Extentions/ExtentionsContainer";
 import AuthFormContainer from "./components/AuthForm/AuthFormContainer";
@@ -107,11 +107,11 @@ let AppContainer = compose(
 
 function CloudApp() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Provider store={store}>
                 <AppContainer/>
             </Provider>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
