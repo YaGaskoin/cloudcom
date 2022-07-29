@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/cloudcom/static/css/main.a1e8d5c1.css",
-    "main.js": "/cloudcom/static/js/main.79346f79.js",
+    "main.js": "/cloudcom/static/js/main.e6f9a487.js",
     "static/js/787.d19936dc.chunk.js": "/cloudcom/static/js/787.d19936dc.chunk.js",
     "index.html": "/cloudcom/index.html",
     "static/media/ring.svg": "/cloudcom/static/media/ring.e1da6c776e0aca8617a2587f787908aa.svg",
     "main.a1e8d5c1.css.map": "/cloudcom/static/css/main.a1e8d5c1.css.map",
-    "main.79346f79.js.map": "/cloudcom/static/js/main.79346f79.js.map",
+    "main.e6f9a487.js.map": "/cloudcom/static/js/main.e6f9a487.js.map",
     "787.d19936dc.chunk.js.map": "/cloudcom/static/js/787.d19936dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a1e8d5c1.css",
-    "static/js/main.79346f79.js"
+    "static/js/main.e6f9a487.js"
   ]
 }
