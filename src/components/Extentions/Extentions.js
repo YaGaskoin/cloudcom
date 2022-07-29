@@ -10,7 +10,7 @@ const Extentions = (props) => {
                 title="Добавочные номера"
             />
             <div className="site-card-wrapper">
-                <Row gutter={16}>
+                <Row gutter={[16, 16]}>
                     {
                         props.extentions.map(ext => {
                             return <ExtCard key={ext.id} id={ext.id} title={ext.label} content={ext.name} />
